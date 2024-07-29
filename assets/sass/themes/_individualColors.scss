@@ -1,0 +1,19 @@
+.boton1{
+    background-color: $color1;
+    color: white;
+}
+  
+.boton2 {
+    background-color: white;
+    color: black;
+    
+    i {
+      margin-right: 0.5rem; 
+      font-size: 1.2rem;
+    }
+  
+    &:hover {
+      background-color: #f0f0f0;
+      color: black; 
+    }
+  }

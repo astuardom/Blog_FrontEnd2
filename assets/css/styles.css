@@ -1,0 +1,281 @@
+/* abstracts */
+/* base */
+body, h1, h2, h3, h4, h5, h6, p, a, div, span, button, input, textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* components */
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 350px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0;
+  text-decoration: none;
+}
+
+.inputsFormulario {
+  border: 3px solid;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 340px;
+  margin-top: 12px;
+  border-color: #e9ebec;
+}
+
+.componenteSubscripcion {
+  background-color: #63af2b;
+  width: 96%;
+  height: 150px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+
+.textoSubscripcion {
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.inputSubscripcion {
+  border: none;
+  border-radius: 8px;
+  width: 22%;
+  height: 40px;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.botonSubscripcion {
+  border-radius: 10px;
+  color: black;
+  background-color: #bebcbc;
+  height: 40px;
+  width: 140px;
+  margin-left: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+footer .footer-content {
+  display: flex;
+  align-items: center;
+}
+footer .logo {
+  margin-right: 0.5rem;
+}
+footer .footer-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+footer .footer {
+  margin: 0;
+  font-size: 1.2rem;
+}
+footer .comentarioPieDePagina {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.custom-heading {
+  text-align: left;
+}
+.custom-heading .row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+.custom-heading h4 {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.logoAspecto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.sombreado {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  padding: 2rem;
+}
+.sombreado .parrafo {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.sombreado .imgBootstrap {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container .row {
+  display: flex;
+}
+.container .col-4 {
+  display: flex;
+}
+.container .col-4 .imagenFin {
+  border-radius: 20px;
+  height: 150px;
+  width: 220px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.elemento-pequeno {
+  font-size: 12px;
+}
+
+.elemento-grande {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo-pequeno {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo-desafio {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* layout */
+.FormularioCentrado {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header .header-left {
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  margin-right: 0.5rem;
+}
+header .tituloPrincipal {
+  font-size: 1.5rem;
+  margin: 0;
+  white-space: nowrap;
+}
+header .header-nav {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+header .header-nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #63af2b;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+header .header-nav a:hover {
+  background-color: #0fe421;
+}
+header .header-nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+/* pages */
+/* themes */
+.boton1 {
+  background-color: #63af2b;
+  color: white;
+}
+
+.boton2 {
+  background-color: white;
+  color: black;
+}
+.boton2 i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+.boton2:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.lineaAcoplado {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.tituloPrincipal {
+  font-size: 25px;
+  font-weight: 800;
+  display: inline;
+}
+
+.tituloFormulario {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.comentarioPieDePagina {
+  text-align: right;
+  font-size: 14px;
+  display: inline;
+}
+
+/* vendors */
+
+/*# sourceMappingURL=styles.css.map */

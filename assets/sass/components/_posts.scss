@@ -1,0 +1,85 @@
+.custom-heading {
+    text-align: left; 
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start; 
+        padding: 0; 
+    }
+
+    h4 {
+        font-weight: bold; 
+        white-space: nowrap; 
+    }
+}
+
+.logoAspecto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.sombreado {
+    border-radius: 10px;
+    background-color: #eeeeee; 
+    padding: 2rem; 
+
+    .parrafo {
+        color: #333; 
+        font-size: 1rem; 
+        line-height: 1.5; 
+    }
+
+    .imgBootstrap {
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+}
+
+.container {
+    .row {
+        display: flex;
+    }
+
+    .col-4 {
+        display: flex;
+        .imagenFin {
+            border-radius: 20px;
+            height: 150px;
+            width: 220px; 
+        }
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.elemento-pequeno {
+    font-size: 12px; 
+}
+
+.elemento-grande {
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.logo-pequeno {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.logo-desafio {
+    display: flex;
+    align-items: flex-start; 
+}
